@@ -2,10 +2,10 @@ class Circle {
     constructor(radius){
         this.radius = radius;
     }
-    area() {
+    getArea() {
         return Math.PI * this.radius ** 2
     }
-    perimeter() {
+    getPerimeter() {
         return 2 * Math.PI * this.radius
     }
 }

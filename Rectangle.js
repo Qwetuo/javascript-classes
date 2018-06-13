@@ -4,10 +4,10 @@ class Rectangle {
         this.length = length;
     }
 
-    area() {
+    getArea() {
         return this.length * this.breadth;
     }
-    perimeter() {
+    getPerimeter() {
         return 2*this.length + 2* this.breadth;
     }
 }

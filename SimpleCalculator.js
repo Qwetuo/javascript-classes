@@ -1,11 +1,10 @@
 class SimpleCalculator {
-    constructor(value){
+    constructor(value = 0){ //initiate the DEFAULT value if nth is passed into it.
         this.value = value
     }
     add(n) {
         this.value = n+ this.value
         return this
-        // return this.value = addition
     }
     subtract(n) {
         this.value = this.value - n
